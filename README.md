@@ -1,7 +1,7 @@
-#README - Proyecto Flask Usuarios
+\#README - Proyecto Flask Usuarios
 Este es el repositorio para el proyecto Flask. A continuación, se proporcionan las instrucciones para configurar y ejecutar el proyecto correctamente.
 
-##Instalación
+\##Instalación
 Asegúrate de tener Python instalado en tu sistema. Puedes descargarlo desde el sitio web oficial de Python: https://www.python.org
 
 Instala Flask ejecutando el siguiente comando en tu terminal:
@@ -15,7 +15,7 @@ Si tu proyecto requiere la instalación de psycopg2, puedes ejecutar el siguient
 
 pip install psycopg2
 
-##Configuración de la Base de Datos
+\##Configuración de la Base de Datos
 Crea una base de datos llamada "usuarios" en PostgreSQL. Puedes utilizar una herramienta como pgAdmin para crearla, o ejecutar el siguiente comando en la terminal de PostgreSQL:
 
 CREATE DATABASE usuarios;
@@ -30,7 +30,7 @@ ALTER USER usuario WITH SUPERUSER;
 
 Estos comandos otorgan todos los privilegios necesarios para que el usuario pueda acceder y manipular la base de datos.
 
-##Ejecución del Proyecto
+\##Ejecución del Proyecto
 Clona este repositorio en tu máquina local o descárgalo como archivo ZIP.
 
 Navega hasta el directorio del proyecto en tu terminal.
